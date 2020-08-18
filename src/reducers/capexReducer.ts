@@ -1,26 +1,34 @@
 import CapexExpense from '../../types/CAPEX/CapexExpense';
 import CapexExpenseSetGroup from '../../types/CAPEX/CapexExpenseSetGroup';
 import CapexSet from '../../types/CAPEX/CapexSet';
-import { CAPEX_ADD_SUCCESS } from '../actions/capex/addCapex';
-import { CAPEX_EXPENSE_SET_GROUP_ADD_SUCCESS } from '../actions/capex/addCapexSetGroup';
+import { CAPEX_ADD_ERROR, CAPEX_ADD_SUCCESS } from '../actions/capex/addCapex';
+import {
+  CAPEX_EXPENSE_SET_GROUP_ADD_ERROR,
+  CAPEX_EXPENSE_SET_GROUP_ADD_SUCCESS,
+} from '../actions/capex/addCapexSetGroup';
 import {
   CAPEX_SET_ERROR,
   CAPEX_SET_FETCH,
   CAPEX_SET_SUCCESS,
   CapexesAction,
 } from '../actions/capex/capexSet';
-import { CAPEX_UPDATE_VALUE_SUCCESS } from '../actions/capex/updateCapexValue';
+import {
+  CAPEX_UPDATE_VALUE_ERROR,
+  CAPEX_UPDATE_VALUE_SUCCESS,
+} from '../actions/capex/updateCapexValue';
 
-const initialState = {
-  capexSet: {} as CapexSet,
-};
+export interface InitialState {
+  capexSet: CapexSet;
+  error?: any;
+}
+
 let groupList: CapexExpenseSetGroup[];
 let group: CapexExpenseSetGroup;
 let capexExpenseList: CapexExpense[];
 let capexExpense: CapexExpense;
 let newGroupTotalValue: number;
 
-export default function capexReducer(state = initialState, action: CapexesAction) {
+export default function capexReducer(state: InitialState, action: CapexesAction) {
   switch (action.type) {
     case CAPEX_SET_FETCH:
     case CAPEX_SET_SUCCESS:
@@ -31,7 +39,7 @@ export default function capexReducer(state = initialState, action: CapexesAction
     case CAPEX_SET_ERROR:
       return {
         ...state,
-        error: action.payload,
+        error: action.errorMessage,
       };
     case CAPEX_EXPENSE_SET_GROUP_ADD_SUCCESS:
       /* eslint-disable-line */const newCapexSet = {...state.capexSet};
@@ -40,12 +48,22 @@ export default function capexReducer(state = initialState, action: CapexesAction
         ...state,
         capexSet: newCapexSet,
       };
+    case CAPEX_EXPENSE_SET_GROUP_ADD_ERROR:
+      return {
+        ...state,
+        error: action.errorMessage,
+      };
     case CAPEX_ADD_SUCCESS:
       /* eslint-disable-line */const newCapex = {...state.capexSet};
       /* eslint-disable-line */newCapex?.capexExpenseGroupList?.find((group: CapexExpenseSetGroup) => group?.id === action.payload.group?.id)?.capexExpenseList?.push(action.payload.capex);
       return {
         ...state,
         capexSet: newCapex,
+      };
+    case CAPEX_ADD_ERROR:
+      return {
+        ...state,
+        error: action.errorMessage,
       };
     case CAPEX_UPDATE_VALUE_SUCCESS:
       groupList = (state?.capexSet.capexExpenseGroupList ?? []) as CapexExpenseSetGroup[];
@@ -89,32 +107,13 @@ export default function capexReducer(state = initialState, action: CapexesAction
                 return { ...groupItem };
               }),
             ],
-            /* capexExpenseGroupList: [
-              ...groupList.filter((i: CapexExpenseSetGroup) => i.id !== group.id),
-              ...[
-                {
-                  ...group,
-                  ...{
-                    ...state.capexSet.capexExpenseGroupList,
-                    valueTotal: newGroupTotalValue,
-                    capexExpenseList: [
-                      ...capexExpenseList.map((i: CapexExpense) => {
-                        if (i.id === capexExpense.id) {
-                          return {...action.payload.capex};
-                        }
-                        return {...i};
-                      }),
-                    ],
-                    /!*capexExpenseList: [
-                      ...capexExpenseList.filter((i: CapexExpense) => i.id !== capexExpense.id),
-                      ...[{...capexExpense, ...action.payload.capex}],
-                    ],*!/
-                  },
-                },
-              ],
-            ], */
           },
         },
+      };
+    case CAPEX_UPDATE_VALUE_ERROR:
+      return {
+        ...state,
+        error: action.errorMessage,
       };
     default:
       return state;

@@ -5,11 +5,12 @@ import {
   CAPEX_SET_GLOBAL_VALUE_SUCCESS,
 } from '../actions/capex/capexSetGlobalValue';
 
-const initialState = {
-  capexSetGlobalValue: {} as CapexSetGlobalValue,
-};
+export interface InitialState {
+  capexSetGlobalValue: CapexSetGlobalValue;
+  error?: any;
+}
 
-export default function capexGlobalValuesReducer(state = initialState, action: CapexesAction) {
+export default function capexGlobalValuesReducer(state: InitialState, action: CapexesAction) {
   switch (action.type) {
     case CAPEX_SET_GLOBAL_VALUE_SUCCESS:
       return {
@@ -19,7 +20,7 @@ export default function capexGlobalValuesReducer(state = initialState, action: C
     case CAPEX_SET_GLOBAL_VALUE_ERROR:
       return {
         ...state,
-        error: action.payload,
+        error: action.errorMessage,
       };
     default:
       return state;
