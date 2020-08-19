@@ -75,8 +75,6 @@ export const CapexSetWrapper = ({
   };
 
   const requestSetGlobalValue = useCallback(() => {
-    // TODO: запрос на обновление reservedValue
-    console.log('reserveValue: ', reserveValue);
     updateCapexGlobalValue({
       id: reserveValueId,
       value: reserveValue,
@@ -155,6 +153,7 @@ export const CapexSetWrapper = ({
                           size="s"
                           width="full"
                           id="capexSetGroupName"
+                          placeholder="Введите название группы затрат"
                           type="text"
                           maxLength={150}
                           value={newGroupName}

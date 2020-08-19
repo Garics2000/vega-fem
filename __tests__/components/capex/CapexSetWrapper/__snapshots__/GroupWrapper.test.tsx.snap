@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GroupWrapper/> рендерится без ошибок 1`] = `
+<div
+  className="GroupWrapper"
+>
+  <div
+    className={
+      Object {
+        "has": [Function],
+        "is": [Function],
+        "mix": [Function],
+        "split": [Function],
+        "state": [Function],
+        "toString": [Function],
+      }
+    }
+  >
+    <div
+      className={
+        Object {
+          "has": [Function],
+          "is": [Function],
+          "mix": [Function],
+          "split": [Function],
+          "state": [Function],
+          "toString": [Function],
+        }
+      }
+      onClick={[Function]}
+      role="presentation"
+    >
+      <span
+        className="Icon Icon_size_xs IconArrowDown"
+      >
+        <svg
+          className="Icon-Svg"
+          viewBox="0 0 12 12"
+        >
+          <path
+            clipRule="evenodd"
+            d="M6.005 8.341L2.03 4.366l.707-.707 3.268 3.268 3.268-3.268.707.707-3.975 3.975z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </span>
+      <span
+        className="Text text text_size_s text_view_primary"
+      >
+        Первоначальный взнос
+      </span>
+    </div>
+    <div
+      className={
+        Object {
+          "has": [Function],
+          "is": [Function],
+          "mix": [Function],
+          "split": [Function],
+          "state": [Function],
+          "toString": [Function],
+        }
+      }
+    >
+      <button
+        className="Button Button_size_s Button_view_clear Button_form_default Button_withIcon Button_onlyIcon"
+        onClick={[Function]}
+        title="Добавить статью"
+      >
+        <span
+          className="Icon Icon_size_xs IconAdd Button-Icon"
+        >
+          <svg
+            className="Icon-Svg"
+            viewBox="0 0 12 12"
+          >
+            <path
+              d="M6 3H5v3H2v1h3v3h1V7h3V6H6V3z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className={
+      Object {
+        "has": [Function],
+        "is": [Function],
+        "mix": [Function],
+        "split": [Function],
+        "state": [Function],
+        "toString": [Function],
+      }
+    }
+  >
+    <div
+      className={
+        Object {
+          "has": [Function],
+          "is": [Function],
+          "mix": [Function],
+          "split": [Function],
+          "state": [Function],
+          "toString": [Function],
+        }
+      }
+    >
+      <div
+        className={
+          Object {
+            "has": [Function],
+            "is": [Function],
+            "mix": [Function],
+            "split": [Function],
+            "state": [Function],
+            "toString": [Function],
+          }
+        }
+      >
+        <label
+          className={
+            Object {
+              "has": [Function],
+              "is": [Function],
+              "mix": [Function],
+              "split": [Function],
+              "state": [Function],
+              "toString": [Function],
+            }
+          }
+        >
+          Значение разового платежа
+        </label>
+        <div
+          className="TextField TextField_size_s TextField_view_default TextField_form_default TextField_width_full TextField_type_text TextField_withValue"
+        >
+          <input
+            autoFocus={false}
+            className="TextField-Input"
+            id="capex_oneTimePaymentValue"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Значение"
+            type="text"
+            value="1000000"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className={
+        Object {
+          "has": [Function],
+          "is": [Function],
+          "mix": [Function],
+          "split": [Function],
+          "state": [Function],
+          "toString": [Function],
+        }
+      }
+    >
+      <div
+        className={
+          Object {
+            "has": [Function],
+            "is": [Function],
+            "mix": [Function],
+            "split": [Function],
+            "state": [Function],
+            "toString": [Function],
+          }
+        }
+      >
+        <label
+          className={
+            Object {
+              "has": [Function],
+              "is": [Function],
+              "mix": [Function],
+              "split": [Function],
+              "state": [Function],
+              "toString": [Function],
+            }
+          }
+        >
+          Значение второго платежа
+        </label>
+        <div
+          className="TextField TextField_size_s TextField_view_default TextField_form_default TextField_width_full TextField_type_text TextField_withValue"
+        >
+          <input
+            autoFocus={false}
+            className="TextField-Input"
+            id="capex_secondTimePaymentValue"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Значение"
+            type="text"
+            value="1000"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

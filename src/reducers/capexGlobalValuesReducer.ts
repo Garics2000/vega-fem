@@ -9,8 +9,9 @@ export interface InitialState {
   capexSetGlobalValue: CapexSetGlobalValue;
   error?: any;
 }
+const firstState: InitialState = { capexSetGlobalValue: {} };
 
-export default function capexGlobalValuesReducer(state: InitialState, action: CapexesAction) {
+export default function capexGlobalValuesReducer(state = firstState, action: CapexesAction) {
   switch (action.type) {
     case CAPEX_SET_GLOBAL_VALUE_SUCCESS:
       return {

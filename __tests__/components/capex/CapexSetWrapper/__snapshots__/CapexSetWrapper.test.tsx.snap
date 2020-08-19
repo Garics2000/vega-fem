@@ -1,0 +1,910 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CapexSetWrapper/> рендерится без ошибок 1`] = `
+<div
+  className="BlockWrapper"
+>
+  <div
+    className={
+      Object {
+        "has": [Function],
+        "is": [Function],
+        "mix": [Function],
+        "split": [Function],
+        "state": [Function],
+        "toString": [Function],
+      }
+    }
+  >
+    <div
+      className={
+        Object {
+          "has": [Function],
+          "is": [Function],
+          "mix": [Function],
+          "split": [Function],
+          "state": [Function],
+          "toString": [Function],
+        }
+      }
+    >
+      <span
+        className="Text text text_size_xs text_view_primary"
+      >
+        CAPEX
+      </span>
+      <span
+        className="Icon Icon_size_xs IconSelect"
+      >
+        <svg
+          className="Icon-Svg"
+          viewBox="0 0 12 12"
+        >
+          <path
+            d="M6 8.5L10 4H2l4 4.5z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    className={
+      Object {
+        "has": [Function],
+        "is": [Function],
+        "mix": [Function],
+        "split": [Function],
+        "state": [Function],
+        "toString": [Function],
+      }
+    }
+  >
+    <form
+      className={
+        Object {
+          "has": [Function],
+          "is": [Function],
+          "mix": [Function],
+          "split": [Function],
+          "state": [Function],
+          "toString": [Function],
+        }
+      }
+      onSubmit={[Function]}
+    >
+      <div
+        className={
+          Object {
+            "has": [Function],
+            "is": [Function],
+            "mix": [Function],
+            "split": [Function],
+            "state": [Function],
+            "toString": [Function],
+          }
+        }
+      >
+        <div
+          className={
+            Object {
+              "has": [Function],
+              "is": [Function],
+              "mix": [Function],
+              "split": [Function],
+              "state": [Function],
+              "toString": [Function],
+            }
+          }
+        >
+          <div
+            className={
+              Object {
+                "has": [Function],
+                "is": [Function],
+                "mix": [Function],
+                "split": [Function],
+                "state": [Function],
+                "toString": [Function],
+              }
+            }
+          >
+            <label
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              htmlFor="capexSetReservedValue"
+            >
+              Величина резерва
+            </label>
+            <div
+              className="TextField TextField_size_s TextField_view_default TextField_form_default TextField_width_full TextField_type_text TextField_withValue"
+            >
+              <input
+                autoFocus={false}
+                className="TextField-Input"
+                id="capexSetReservedValue"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                type="text"
+                value="38"
+              />
+              <div
+                className="TextField-Side TextField-Side_position_right TextField-Side_type_string"
+              >
+                %
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className={
+            Object {
+              "has": [Function],
+              "is": [Function],
+              "mix": [Function],
+              "split": [Function],
+              "state": [Function],
+              "toString": [Function],
+            }
+          }
+        >
+          <div
+            className="GroupWrapper"
+          >
+            <div
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            >
+              <div
+                className={
+                  Object {
+                    "has": [Function],
+                    "is": [Function],
+                    "mix": [Function],
+                    "split": [Function],
+                    "state": [Function],
+                    "toString": [Function],
+                  }
+                }
+                onClick={[Function]}
+                role="presentation"
+              >
+                <span
+                  className="Icon Icon_size_xs IconArrowDown"
+                >
+                  <svg
+                    className="Icon-Svg"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      clipRule="evenodd"
+                      d="M6.005 8.341L2.03 4.366l.707-.707 3.268 3.268 3.268-3.268.707.707-3.975 3.975z"
+                      fillRule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="Text text text_size_s text_view_primary"
+                >
+                  Первоначальный взнос
+                </span>
+              </div>
+              <div
+                className={
+                  Object {
+                    "has": [Function],
+                    "is": [Function],
+                    "mix": [Function],
+                    "split": [Function],
+                    "state": [Function],
+                    "toString": [Function],
+                  }
+                }
+              >
+                <button
+                  className="Button Button_size_s Button_view_clear Button_form_default Button_withIcon Button_onlyIcon"
+                  onClick={[Function]}
+                  title="Добавить статью"
+                >
+                  <span
+                    className="Icon Icon_size_xs IconAdd Button-Icon"
+                  >
+                    <svg
+                      className="Icon-Svg"
+                      viewBox="0 0 12 12"
+                    >
+                      <path
+                        d="M6 3H5v3H2v1h3v3h1V7h3V6H6V3z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            >
+              <div
+                className={
+                  Object {
+                    "has": [Function],
+                    "is": [Function],
+                    "mix": [Function],
+                    "split": [Function],
+                    "state": [Function],
+                    "toString": [Function],
+                  }
+                }
+              >
+                <div
+                  className={
+                    Object {
+                      "has": [Function],
+                      "is": [Function],
+                      "mix": [Function],
+                      "split": [Function],
+                      "state": [Function],
+                      "toString": [Function],
+                    }
+                  }
+                >
+                  <label
+                    className={
+                      Object {
+                        "has": [Function],
+                        "is": [Function],
+                        "mix": [Function],
+                        "split": [Function],
+                        "state": [Function],
+                        "toString": [Function],
+                      }
+                    }
+                  >
+                    Значение разового платежа
+                  </label>
+                  <div
+                    className="TextField TextField_size_s TextField_view_default TextField_form_default TextField_width_full TextField_type_text TextField_withValue"
+                  >
+                    <input
+                      autoFocus={false}
+                      className="TextField-Input"
+                      id="capex_oneTimePaymentValue"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      placeholder="Значение"
+                      type="text"
+                      value="1000000"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className={
+          Object {
+            "has": [Function],
+            "is": [Function],
+            "mix": [Function],
+            "split": [Function],
+            "state": [Function],
+            "toString": [Function],
+          }
+        }
+      >
+        <button
+          className="Button Button_size_s Button_view_ghost Button_form_default Button_withIcon"
+          onClick={[Function]}
+        >
+          <span
+            className="Icon Icon_size_xs IconAdd Button-Icon Button-Icon_position_left"
+          >
+            <svg
+              className="Icon-Svg"
+              viewBox="0 0 12 12"
+            >
+              <path
+                d="M6 3H5v3H2v1h3v3h1V7h3V6H6V3z"
+              />
+            </svg>
+          </span>
+          <span
+            className="Button-Label"
+          >
+            Добавить группу затрат
+          </span>
+        </button>
+      </div>
+    </form>
+    <div
+      className="FEMTableWrapper"
+    >
+      <table
+        className={
+          Object {
+            "has": [Function],
+            "is": [Function],
+            "mix": [Function],
+            "split": [Function],
+            "state": [Function],
+            "toString": [Function],
+          }
+        }
+      >
+        <thead>
+          <tr>
+            <th>
+              
+            </th>
+            <th>
+              Статья
+            </th>
+            <th>
+              Суммарное
+            </th>
+            <th>
+              2020
+            </th>
+            <th>
+              2021
+            </th>
+            <th>
+              2022
+            </th>
+            <th>
+              2023
+            </th>
+            <th>
+              2024
+            </th>
+            <th>
+              2025
+            </th>
+            <th>
+              2026
+            </th>
+            <th>
+              2027
+            </th>
+            <th>
+              2028
+            </th>
+            <th>
+              2029
+            </th>
+            <th>
+              2030
+            </th>
+            <th>
+              2031
+            </th>
+            <th>
+              2032
+            </th>
+            <th>
+              2033
+            </th>
+            <th>
+              2034
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              title="Первоначальный взнос"
+            >
+              Первоначальный взнос
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            >
+              1000000
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            />
+          </tr>
+          <tr>
+            <td />
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              title="Значение разового платежа"
+            >
+              Значение разового платежа
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+            >
+              1000000
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+            <td
+              className={
+                Object {
+                  "has": [Function],
+                  "is": [Function],
+                  "mix": [Function],
+                  "split": [Function],
+                  "state": [Function],
+                  "toString": [Function],
+                }
+              }
+              onBlur={[Function]}
+              onDoubleClick={[Function]}
+            >
+              
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

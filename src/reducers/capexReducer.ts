@@ -21,6 +21,7 @@ export interface InitialState {
   capexSet: CapexSet;
   error?: any;
 }
+const firstState: InitialState = { capexSet: {} };
 
 let groupList: CapexExpenseSetGroup[];
 let group: CapexExpenseSetGroup;
@@ -28,7 +29,7 @@ let capexExpenseList: CapexExpense[];
 let capexExpense: CapexExpense;
 let newGroupTotalValue: number;
 
-export default function capexReducer(state: InitialState, action: CapexesAction) {
+export default function capexReducer(state = firstState, action: CapexesAction) {
   switch (action.type) {
     case CAPEX_SET_FETCH:
     case CAPEX_SET_SUCCESS:
